@@ -5,8 +5,7 @@
 		"start": "nodemon app.js"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/ryanhanwu/express-upload-amazon-s3"
+		"type": "git"
 	},
 	"dependencies": {
 		"aws-sdk": "^2.1077.0",
