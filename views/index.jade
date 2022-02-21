@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    h1 Express upload to Amazon S3
+
+    p Test page for <code>express-upload-amazon-s3</code>
+
+    form(method="post", name="form1", action="/upload", enctype="multipart/form-data")
+      fieldset
+        legend Upload File
+        p Profile ID
+        input(type="text", name="profileID")
+        p Assignment ID
+        input(type="text", name="assignmentID")
+        p Category ID
+        input(type="text", name="categoryID")
+        br
+        br
+        input(type="file", name="singleFile" multiple="multiple")
+      div.actions
+        button.btn.primary(type="submit") Upload
